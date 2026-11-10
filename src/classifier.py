@@ -35,7 +35,6 @@ from matplotlib.colors import ListedColormap, BoundaryNorm
 PASTA_SCRIPT = os.path.dirname(os.path.abspath(__file__))
 # pega a pasta acima (trabalho_flona)
 PROJECT = os.path.dirname(os.path.dirname(PASTA_SCRIPT))
-PROJECT = "/home/rafael/Documentos/psot/Trabalho_flona"
 INICIAL = os.path.join(PROJECT, "inicial")
 DADOS = os.path.join(PROJECT, "recuperacao_queimadas", "dados")
 FIG   = os.path.join(PROJECT, "recuperacao_queimadas", "figuras")
