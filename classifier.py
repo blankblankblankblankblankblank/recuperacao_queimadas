@@ -174,7 +174,7 @@ for c in range(K_SEL):
 
 print("\nGerando máscara poligonal e mapa de recuperação...")
 
-# - usar a borda poligonal diretamente (não a grade inteira) 
+# usar a borda poligonal diretamente (não a grade inteira) 
 from utils import load_flona_polygon, polygon_utm_bounds, polygon_pixel_window
 
 shp = os.path.join(INICIAL, "FlonaBSB.shp")
